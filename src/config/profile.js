@@ -16,7 +16,7 @@ export const profile = {
     // Hero ke peeche particle portrait ke liye photo.
     // Apni photo "public/" folder mein daal (jaise public/me.jpg) aur yahan '/me.jpg' likh.
     // Khaali chhoda to ek auto-generated silhouette dikhega (chalega, par asli photo behtar).
-    photo: '',
+    photo: '/me.jpg',
 
     // Chhoti tagline (About page ke upar)
     tagline: 'I build things for the web — from APIs to pixels.',
