@@ -52,17 +52,19 @@ export const profile = {
         },
         {
             name: 'vynx-ui',
-            tagline: 'UI components',
-            description: 'A Vue-based UI experiment. (Add your own description here.)',
-            stack: ['Vue', 'CSS'],
+            tagline: 'Mobile UI framework for Vue Lynx',
+            description:
+                'A token-driven UI component framework for Vue Lynx — PrimeVue, but for mobile. 43 components across six tiers, runtime light/dark and brand theming from a three-layer design-token system, and an admin starter template. Fully DOM-free (renders Lynx elements, not HTML), with a JavaScript-first API, written in TypeScript and backed by 152 tests.',
+            stack: ['Vue 3', 'Lynx', 'TypeScript', 'Design tokens'],
             live: '',
             repo: 'https://github.com/swarajjumde/vynx-ui'
         },
         {
             name: 'kentdb',
-            tagline: 'Data project',
-            description: 'A database-focused side project. (Add your own description here.)',
-            stack: [],
+            tagline: 'Homeopathy repertory engine',
+            description:
+                'A data pipeline that turns Kent’s Repertory (J.T. Kent, 1897, public-domain homeopathy text) into a structured SQLite database for an offline desktop app. Python scripts download, parse and validate the source — preserving each remedy’s grade from the original typography — and a repertorisation engine cross-references selected symptoms to rank remedies.',
+            stack: ['Python', 'SQLite', 'SQL'],
             live: '',
             repo: 'https://github.com/swarajjumde/kentdb'
         }
