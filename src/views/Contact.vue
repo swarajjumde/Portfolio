@@ -19,7 +19,7 @@ const channels = computed(() => [
         <div class="page-head">
             <p class="kicker">Contact</p>
             <h1 class="display-title metal">Let's talk</h1>
-            <p class="lead">Koi project, idea ya bas hello — message karo. Main jaldi reply karta hoon.</p>
+            <p class="lead">Got a project, an idea, or just want to say hello? Reach out — I’ll reply quickly.</p>
         </div>
 
         <div class="channels">
@@ -31,7 +31,7 @@ const channels = computed(() => [
         </div>
 
         <p v-if="!channels.length" class="empty">
-            Abhi koi contact link set nahi hai. <code>src/config/profile.js</code> ke <code>links</code> mein apna email/GitHub daal.
+            No contact links set yet. Add your email or GitHub in <code>src/config/profile.js</code>.
         </p>
     </main>
     <SiteFooter />

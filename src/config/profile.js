@@ -1,34 +1,34 @@
 // =============================================================================
-// Tera saara data yahin. Portfolio ke kisi bhi hisse ka text badalna ho to
-// bas yahan badal, dobara deploy kar. Code chhedne ki zaroorat nahi.
+// All your data lives here. To change anything on the site, edit this file
+// and redeploy — no need to touch the components.
 // =============================================================================
 
 export const profile = {
-    // Hero ka bada shabd (particle portrait ke peeche). Chhota rakh (6-8 letters best).
+    // Big word behind the particle portrait in the hero. Keep it short (6-8 letters).
     wordmark: 'SWARAJ',
 
-    // Nav/brand aur page title mein dikhne wala naam
+    // Name shown in the nav / brand and the page title
     name: 'Swaraj Jumde',
 
-    // Hero ke neeche role line. Aakhri shabd apne aap grey ho jaata hai.
+    // Role line under the hero. The last word is automatically greyed out.
     role: 'Full-stack Developer',
 
-    // Hero ke peeche particle portrait ke liye photo.
-    // Apni photo "public/" folder mein daal (jaise public/me.jpg) aur yahan '/me.jpg' likh.
-    // Khaali chhoda to ek auto-generated silhouette dikhega (chalega, par asli photo behtar).
+    // Portrait used for the hero particle effect.
+    // Put your photo in the "public/" folder and reference it here (e.g. '/me.jpg').
+    // Leave empty to show an auto-generated silhouette instead.
     photo: '/me.jpg',
 
-    // Chhoti tagline (About page ke upar)
-    tagline: 'I build things for the web — from APIs to pixels.',
+    // Short tagline (shown at the top of the About page)
+    tagline: 'I build for the web — from the API to the pixels.',
 
-    // About page ke paragraphs (array — har item ek paragraph)
+    // About page paragraphs (one string per paragraph)
     about: [
-        "Main ek full-stack developer hoon jo ideas ko live, kaam karne wali cheezon mein badalta hai. Backend se frontend tak, aur deploy karke internet pe chadhane tak — poora safar khud karta hoon.",
-        "Laravel aur Vue mera main stack hai. Databases, REST APIs, authentication, aur Vue 3 ke saaf UI banana — ye roz ka kaam hai. Cloud pe (AWS EC2) apne haath se server set karke, nginx, HTTPS aur domain ke saath apne projects live karta hoon.",
-        "Aajkal cybersecurity aur pentesting seekh raha hoon — apne hi systems ko attacker ki nazar se dekhna, taaki unhe behtar bana sakoon. Naye tools aur concepts seekhte rehna hi mera kaam ka tareeka hai."
+        'I’m a full-stack developer who enjoys taking an idea all the way from an empty repository to a live URL. I’m comfortable across the whole stack — the backend, the frontend, and the deployment in between.',
+        'Laravel and Vue are my main tools. I build REST APIs, authentication and clean Vue 3 interfaces, and I ship them myself on AWS — setting up the server, nginx, HTTPS and DNS by hand rather than relying on a one-click host.',
+        'Lately I’ve been getting into security and pentesting — looking at my own systems the way an attacker would, so I can build them more carefully. I learn by shipping, and I keep picking up new tools as I go.'
     ],
 
-    // Skills (About page). Apne hisaab se badal.
+    // Skills shown on the About page
     skills: [
         { group: 'Backend', items: ['Laravel', 'PHP', 'REST APIs', 'MySQL', 'Sanctum auth'] },
         { group: 'Frontend', items: ['Vue 3', 'JavaScript', 'Vite', 'HTML/CSS', 'PrimeVue'] },
@@ -36,41 +36,40 @@ export const profile = {
         { group: 'Security', items: ['nmap', 'Burp Suite', 'Metasploit', 'Linux hardening'] }
     ],
 
-    // Projects (Projects page). Pehla wala "featured" bada dikhega.
-    // Samay sach-much ka project hai. Baaki tere GitHub repos hain — inki
-    // description apne shabdon mein bhar/badal de (abhi stubs hain).
+    // Projects shown on the Projects page. The first one is featured (shown larger).
+    // Samay is filled in accurately. Replace the descriptions of the others with
+    // your own words whenever you like.
     projects: [
         {
             name: 'Samay',
             tagline: 'Service booking platform',
             description:
-                'Ek full booking app: customer login karke service book karta hai, aur admin (service owner) sab dashboard se sambhalta hai. Laravel 13 REST API (Sanctum token auth, slot logic jo double-booking rokta hai), Vue 3 + PrimeVue panel, aur Three.js wala 3D landing page. Apne AWS EC2 server pe nginx + HTTPS ke saath khud deploy kiya.',
+                'A full booking platform. Customers sign up and book services, while the owner manages everything from an admin dashboard. Built with a Laravel 13 REST API (Sanctum token auth and slot logic that prevents double-booking), a Vue 3 + PrimeVue panel, and a Three.js landing page. Deployed end to end on my own AWS EC2 server with nginx and HTTPS.',
             stack: ['Laravel 13', 'Vue 3', 'Three.js', 'MySQL', 'AWS'],
             featured: true,
-            // Live/repo link ho to daal, warna khaali chhod (button nahi dikhega)
             live: '',
             repo: 'https://github.com/swarajjumde/samay'
         },
         {
             name: 'vynx-ui',
-            tagline: 'UI component work',
-            description: 'ADD DESCRIPTION — is repo ke baare mein 1-2 line apne shabdon mein likh.',
+            tagline: 'UI components',
+            description: 'A Vue-based UI experiment. (Add your own description here.)',
             stack: ['Vue', 'CSS'],
             live: '',
             repo: 'https://github.com/swarajjumde/vynx-ui'
         },
         {
             name: 'kentdb',
-            tagline: 'Data / backend project',
-            description: 'ADD DESCRIPTION — is repo ke baare mein 1-2 line apne shabdon mein likh.',
+            tagline: 'Data project',
+            description: 'A database-focused side project. (Add your own description here.)',
             stack: [],
             live: '',
             repo: 'https://github.com/swarajjumde/kentdb'
         }
     ],
 
-    // Contact + social links. Jo nahi chahiye use khaali chhod de (dikhega nahi).
-    // Email jaan-boojh ke khaali hai — public karna ho to apna email yahan daal.
+    // Contact + social links. Leave any blank and it simply won't show.
+    // Email is left blank on purpose — add it here if you want it public.
     links: {
         email: '',
         github: 'https://github.com/swarajjumde',

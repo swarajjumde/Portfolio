@@ -18,7 +18,7 @@ onMounted(() => {
         <div class="page-head reveal in">
             <p class="kicker">Projects</p>
             <h1 class="display-title metal">Selected work</h1>
-            <p class="lead">Jo maine banaya aur live kiya. Har ek khud design, build aur deploy kiya.</p>
+            <p class="lead">Things I’ve built and shipped — each one designed, built and deployed end to end.</p>
         </div>
 
         <div class="grid">

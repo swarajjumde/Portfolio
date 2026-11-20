@@ -6,7 +6,7 @@ import SiteNav from '@/components/SiteNav.vue';
     <SiteNav />
     <main class="page nf">
         <h1 class="display-title metal">404</h1>
-        <p>Ye page nahi mila.</p>
+        <p>This page doesn’t exist.</p>
         <router-link to="/" class="btn btn-solid">Back home</router-link>
     </main>
 </template>
