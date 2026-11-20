@@ -47,26 +47,9 @@ export const profile = {
                 'A full booking platform. Customers sign up and book services, while the owner manages everything from an admin dashboard. Built with a Laravel 13 REST API (Sanctum token auth and slot logic that prevents double-booking), a Vue 3 + PrimeVue panel, and a Three.js landing page. Deployed end to end on my own AWS EC2 server with nginx and HTTPS.',
             stack: ['Laravel 13', 'Vue 3', 'Three.js', 'MySQL', 'AWS'],
             featured: true,
+            // live demo link daalna ho to yahan URL likh; code link jaan-boojh ke hata diya hai
             live: '',
-            repo: 'https://github.com/swarajjumde/samay'
-        },
-        {
-            name: 'vynx-ui',
-            tagline: 'Mobile UI framework for Vue Lynx',
-            description:
-                'A token-driven UI component framework for Vue Lynx — PrimeVue, but for mobile. 43 components across six tiers, runtime light/dark and brand theming from a three-layer design-token system, and an admin starter template. Fully DOM-free (renders Lynx elements, not HTML), with a JavaScript-first API, written in TypeScript and backed by 152 tests.',
-            stack: ['Vue 3', 'Lynx', 'TypeScript', 'Design tokens'],
-            live: '',
-            repo: 'https://github.com/swarajjumde/vynx-ui'
-        },
-        {
-            name: 'kentdb',
-            tagline: 'Homeopathy repertory engine',
-            description:
-                'A data pipeline that turns Kent’s Repertory (J.T. Kent, 1897, public-domain homeopathy text) into a structured SQLite database for an offline desktop app. Python scripts download, parse and validate the source — preserving each remedy’s grade from the original typography — and a repertorisation engine cross-references selected symptoms to rank remedies.',
-            stack: ['Python', 'SQLite', 'SQL'],
-            live: '',
-            repo: 'https://github.com/swarajjumde/kentdb'
+            repo: ''
         }
     ],
 
